@@ -1,0 +1,2802 @@
+<!DOCTYPE html>
+<!-- 用于分析的课程表展示页，已剔除head的css js和个人信息-->
+<!-- saved from url=(0120)https://xsjw2018-jw.webvpn.scut.edu.cn/jwglxt/kbcx/xskbcx_cxXskbcxIndex.html?gnmkdm=N2151&layout=default -->
+
+<body>
+	<input type="hidden" id="pkey" name="pkey" value="">
+	<input type="hidden" id="kqhjs" name="kqhjs" value="0">
+	<input type="hidden" id="shyjsfbt" name="shyjsfbt" value="0">
+	<input type="hidden" id="localeKey" name="localeKey" value="zh_CN">
+	<input type="hidden" id="csrftoken" name="csrftoken"
+		value="a6484aae-fdbd-4a02-849b-f94e76d42283,a6484aaefdbd4a02849bf94e76d42283">
+	<input type="hidden" id="cdTsxx" name="cdTsxx" value="-zfsplit-">
+	<input type="hidden" id="wjylSfkf" name="wjylSfkf" value="0">
+
+	<div id="mobile-div" style="display:none">
+		<div class="container">
+			<div class="navbar-header">
+				<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+					<span class="sr-only"> 学生课表查询</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="https://xsjw2018-jw.webvpn.scut.edu.cn/jwglxt/kbcx/xskbcx_cxXskbcxIndex.html?gnmkdm=N2151&amp;layout=default&amp;su=114514#"
+					id="topButton" class="navbar-brand"
+					onclick="onClickMenu(&#39;/kbcx/xskbcx_cxXskbcxIndex.html&#39;,&#39;N2151&#39;)">
+					学生课表查询
+				</a>
+				<script type="text/javascript">
+					document.title = "学生课表查询";
+				</script>
+			</div>
+		</div>
+		<!-- navbar-end  -->
+		<!-- 判断是否可切换角色 -->
+
+	</div>
+
+	<!-- 头部 开始 -->
+	<header class="navbar-inverse top2" id="show-head">
+		<div class="container" id="navbar_container">
+			<!-- 判断是否可切换角色 -->
+
+			<div class="container">
+				<div class="navbar-header">
+					<button class="navbar-toggle" type="button" data-toggle="collapse"
+						data-target=".bs-navbar-collapse">
+						<span class="sr-only"> 学生课表查询</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="https://xsjw2018-jw.webvpn.scut.edu.cn/jwglxt/kbcx/xskbcx_cxXskbcxIndex.html?gnmkdm=N2151&amp;layout=default&amp;su=114514#"
+						id="topButton" class="navbar-brand"
+						onclick="onClickMenu(&#39;/kbcx/xskbcx_cxXskbcxIndex.html&#39;,&#39;N2151&#39;)">
+						学生课表查询
+					</a>
+					<script type="text/javascript">
+						document.title = "学生课表查询";
+					</script>
+				</div>
+			</div>
+			<!-- navbar-end  -->
+		</div>
+	</header>
+	<script>
+		if (window.self !== window.top) {
+			$('body').css({
+				"background": "#fff"
+			})
+			$('body').find('.navbar-inverse').hide();
+		}
+	</script>
+
+	<!--头部 结束 -->
+	<div style="width: 100%; padding: 0px; margin: 0px;" id="bodyContainer">
+		<!-- requestMap中的参数为系统级别控制参数，请勿删除 -->
+		<form id="requestMap">
+			<input type="hidden" id="sessionUserKey" value="114514">
+
+			<input type="hidden" id="gnmkdmKey" value="N2151">
+
+
+		</form>
+		<div class="container container-func sl_all_bg" id="yhgnPage" style="min-height: 5468px;">
+			<div id="innerContainer">
+				<!-- 放置页面显示内容 -->
+
+				<!-- 验证码相关代码 -->
+
+				<!-- éªè¯ç ç¸å³js -->
+				<script type="text/javascript" src="./学生课表查询_files/captcha.js.下载"></script>
+				<input type="hidden" id="xxdm" name="xxdm" value="10561">
+				<input type="hidden" id="kbddsfxsxq" name="kbddsfxsxq" value="1">
+				<input type="hidden" id="dcclbh" name="dcclbh" value="JW_N2151_XSKBCX">
+				<input type="hidden" id="dcclbh2" name="dcclbh2" value="JW_N2151_KFXSYKBCX">
+				<input type="hidden" name="kbylsfxsdj" value="0" id="kbylsfxsdj">
+				<input type="hidden" name="kbdjmsxsfs" value="1" id="kbdjmsxsfs">
+				<input type="hidden" name="gnmkdm" value="N2151" id="gnmkdm">
+
+				<form id="ajaxForm" name="form" onsubmit="return false;"
+					action="https://xsjw2018-jw.webvpn.scut.edu.cn/jwglxt/kbcx/xskbcx_cxXskbcxIndex.html" method="post"
+					class="form-horizontal sl_all_form sl_all_bg" style="margin-bottom:12px;" data-toggle="validation"
+					role="form" novalidate="novalidate">
+					<div class="row">
+						<div class="col-md-4 col-sm-5">
+							<div class="form-group">
+								<label for="" class="col-sm-4 control-label" id="xn"><span
+										style="color:red;">*</span>学年</label>
+								<div class="col-sm-8">
+									<select name="xnm" id="xnm" class="form-control chosen-select"
+										validate="{required:true}" style="display: none;">
+										<option value="">---请选择---</option>
+										<option value="2026">2026-2027</option>
+										<option value="2025">2025-2026</option>
+										<option value="2024">2024-2025</option>
+										<option value="2023">2023-2024</option>
+										<option value="2022" selected="selected">2022-2023</option>
+										<option value="2021">2021-2022</option>
+										<option value="2020">2020-2021</option>
+										<option value="2019">2019-2020</option>
+										<option value="2018">2018-2019</option>
+										<option value="2017">2017-2018</option>
+										<option value="2016">2016-2017</option>
+										<option value="2015">2015-2016</option>
+										<option value="2014">2014-2015</option>
+										<option value="2013">2013-2014</option>
+										<option value="2012">2012-2013</option>
+										<option value="2011">2011-2012</option>
+
+
+									</select>
+									<div class="chosen-container chosen-container-single" style="width: 100%;" title=""
+										id="xnm_chosen"><a class="chosen-single" tabindex="-1"><span>2022-2023</span>
+											<div><b></b></div>
+										</a>
+										<div class="chosen-drop">
+											<div class="chosen-search"><input type="text" autocomplete="off"
+													name="autocomplete"></div>
+											<ul class="chosen-results"></ul>
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-5">
+							<div class="form-group">
+								<label for="" class="col-sm-4 control-label" id="xq"><span
+										style="color:red;">*</span>学期</label>
+								<div class="col-sm-8">
+									<select name="xqm" id="xqm" class="form-control chosen-select"
+										validate="{required:true}" style="display: none;">
+										<option value="">---请选择---</option>
+										<option value="3">1</option>
+										<option value="12" selected="selected">2</option>
+										<option value="16">3</option>
+
+
+									</select>
+									<div class="chosen-container chosen-container-single chosen-container-single-nosearch"
+										style="width: 100%;" title="" id="xqm_chosen"><a class="chosen-single"
+											tabindex="-1"><span>2</span>
+											<div><b></b></div>
+										</a>
+										<div class="chosen-drop">
+											<div class="chosen-search"><input type="text" autocomplete="off"
+													name="autocomplete" readonly=""></div>
+											<ul class="chosen-results"></ul>
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-12 col-sm-12">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<button type="button" class="btn btn-primary btn-sm pull-right" id="search_go"><span
+											class="bigger-120 glyphicon glyphicon-search"></span> 查询</button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<script type="text/javascript">
+						$("#xnm,#xqm").find("option:eq(0)").text("---" + $.i18n.jwglxt["choose"] + "---");
+						$('.chosen-select').trigger("chosen");
+					</script>
+				</form>
+
+
+
+
+				<div class="row sl_add_btn">
+					<div class="col-sm-12">
+						<div class="pull-left" style="margin-left: 10px; margin-top: 10px;">
+
+							<i class="blue bigger-150 glyphicon glyphicon-cog" style="cursor:pointer" id="kbcong"
+								data-original-title="" title=""></i>
+
+						</div>
+						<div class="btn-toolbar pull-right" role="toolbar" id="tb" style="z-index: 1050;">
+
+							<button type="button" class="btn btn-default" id="shcPDF" data-type="table"><span
+									class="bigger-120 glyphicon glyphicon-print"> 输出PDF</span></button>
+							<button type="button" class="btn btn-default btn-primary" href="#table1" role="tab"
+								data-toggle="tab" data-type="table"><span
+									class="bigger-120 glyphicon glyphicon-th-large"></span> 表格</button>
+
+							<button type="button" class="btn btn-default" href="#table2" role="tab" data-toggle="tab"
+								data-type="list"><span class="bigger-120 glyphicon glyphicon-align-justify"></span>
+								列表</button>
+
+
+
+						</div>
+						<div style="height: 40px;"></div>
+					</div>
+				</div>
+				<div id="tableSj"></div>
+				<div id="tableQt"></div>
+				<div id="tableJx"></div>
+				<div class="tab-content" id="ylkbTable">
+
+					<div class="tab-pane fade active in" id="table1">
+						<table id="kbgrid_table_0" class="table table-hover table-bordered text-center timetable1"
+							style="width:98%;margin-left:10px">
+							<tbody>
+								<tr>
+									<td colspan="9">
+										<div class="timetable_title">
+											<h6 class="pull-left">2022-2023学年第2学期</h6>臭臭的课表<h6 class="pull-right">
+												　学号：114514</h6>
+										</div>
+										<div><span class="pull-left"> -其他 -集中实践 -实习 -实验 -理论</span><span
+												class="pull-right">
+												<font color="red" size="3"><b>注：</b></font>
+												<font color="red" size="3"><i>红色斜体为待筛选</i></font>，<font color="blue"
+													size="3">蓝色为已选上</font>
+											</span></div>
+									</td>
+								</tr>
+								<tr>
+									<td width="7.5%"><span class="time">时间段</span></td>
+									<td width="5%"><span class="time">节次</span></td>
+									<td width="12.5%"><span class="time">星期一</span></td>
+									<td width="12.5%"><span class="time">星期二</span></td>
+									<td width="12.5%"><span class="time">星期三</span></td>
+									<td width="12.5%"><span class="time">星期四</span></td>
+									<td width="12.5%"><span class="time">星期五</span></td>
+									<td width="12.5%"><span class="time">星期六</span></td>
+									<td width="12.5%"><span class="time">星期日</span></td>
+								</tr>
+								<tr>
+									<td rowspan="4"><span class="time">上午</span></td>
+									<td><span class="festival">1</span></td>
+									<td rowspan="2" id="1-1" class="td_wrap">
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">概率论与数理统计 </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (1-2节)3-18周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 A3203</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 鲍江宏</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-040100023-05</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 22船舶与海洋工程;22工程力学创新班</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 考试</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:48</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 3</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 48</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 3.0</font>
+											</p>
+										</div>
+									</td>
+									<td rowspan="2" id="2-1" class="td_wrap">
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">概率论与数理统计 </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (1-2节)11-18周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 A3203</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 鲍江宏</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-040100023-05</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 22船舶与海洋工程;22工程力学创新班</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 考试</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:48</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 3</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 48</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 3.0</font>
+											</p>
+										</div>
+									</td>
+									<td rowspan="1" id="3-1" class="td_wrap"></td>
+									<td rowspan="2" id="4-1" class="td_wrap">
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">大学物理Ⅲ(一) </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (1-2节)3-18周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 A3206</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 朱瑞</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-041101151-25</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 22工程力学创新班;22自动化数学双学位班</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 考试</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:64</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 4</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 64</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 4.0</font>
+											</p>
+										</div>
+									</td>
+									<td rowspan="2" id="5-1" class="td_wrap">
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">微积分Ⅱ(二) </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (1-2节)3-10周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 A3103</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 林俊宇</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-040100411-29</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 22船舶与海洋工程;22工程力学创新班</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 考试</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:80</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 6</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 80</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 5.0</font>
+											</p>
+										</div>
+									</td>
+									<td rowspan="1" id="6-1" class="td_wrap"></td>
+									<td rowspan="1" id="7-1" class="td_wrap"></td>
+								</tr>
+								<tr>
+									<td><span class="festival">2</span></td>
+									<td rowspan="1" id="3-2" class="td_wrap"></td>
+									<td rowspan="1" id="6-2" class="td_wrap"></td>
+									<td rowspan="1" id="7-2" class="td_wrap"></td>
+								</tr>
+								<tr>
+									<td><span class="festival">3</span></td>
+									<td rowspan="2" id="1-3" class="td_wrap">
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">微积分Ⅱ(二) </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (3-4节)3-18周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 A3103</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 林俊宇</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-040100411-29</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 22船舶与海洋工程;22工程力学创新班</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 考试</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:80</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 6</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 80</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 5.0</font>
+											</p>
+										</div>
+									</td>
+									<td rowspan="2" id="2-3" class="td_wrap">
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">大学物理Ⅲ(一) </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (3-4节)3-18周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 A3206</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 朱瑞</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-041101151-25</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 22工程力学创新班;22自动化数学双学位班</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 考试</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:64</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 4</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 64</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 4.0</font>
+											</p>
+										</div>
+									</td>
+									<td rowspan="1" id="3-3" class="td_wrap"></td>
+									<td rowspan="1" id="4-3" class="td_wrap"></td>
+									<td rowspan="1" id="5-3" class="td_wrap"></td>
+									<td rowspan="1" id="6-3" class="td_wrap"></td>
+									<td rowspan="1" id="7-3" class="td_wrap"></td>
+								</tr>
+								<tr>
+									<td><span class="festival">4</span></td>
+									<td rowspan="1" id="3-4" class="td_wrap"></td>
+									<td rowspan="1" id="4-4" class="td_wrap"></td>
+									<td rowspan="1" id="5-4" class="td_wrap"></td>
+									<td rowspan="1" id="6-4" class="td_wrap"></td>
+									<td rowspan="1" id="7-4" class="td_wrap"></td>
+								</tr>
+								<tr>
+									<td rowspan="4"><span class="time">下午</span></td>
+									<td><span class="festival">5</span></td>
+									<td rowspan="4" id="1-5" class="td_wrap">
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">先进复合材料的应用与发展 </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (5-8节)5-8周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 A4403</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 姚小虎</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-033103241-01</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 22工程力学创新班</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 考试</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:16</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 2</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 16</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 1.0</font>
+											</p>
+										</div>
+									</td>
+									<td rowspan="2" id="2-5" class="td_wrap">
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">微积分Ⅱ(二) </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (5-6节)3-18周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 A3103</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 林俊宇</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-040100411-29</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 22船舶与海洋工程;22工程力学创新班</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 考试</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:80</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 6</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 80</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 5.0</font>
+											</p>
+										</div>
+									</td>
+									<td rowspan="1" id="3-5" class="td_wrap"></td>
+									<td rowspan="1" id="4-5" class="td_wrap"></td>
+									<td rowspan="1" id="5-5" class="td_wrap"></td>
+									<td rowspan="1" id="6-5" class="td_wrap"></td>
+									<td rowspan="1" id="7-5" class="td_wrap"></td>
+								</tr>
+								<tr>
+									<td><span class="festival">6</span></td>
+									<td rowspan="1" id="3-6" class="td_wrap"></td>
+									<td rowspan="1" id="4-6" class="td_wrap"></td>
+									<td rowspan="1" id="5-6" class="td_wrap"></td>
+									<td rowspan="1" id="6-6" class="td_wrap"></td>
+									<td rowspan="1" id="7-6" class="td_wrap"></td>
+								</tr>
+								<tr>
+									<td><span class="festival">7</span></td>
+									<td rowspan="1" id="2-7" class="td_wrap"></td>
+									<td rowspan="2" id="3-7" class="td_wrap">
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">改革开放史 </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (7-8节)6-13周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 未排地点</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 叶圣涛</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-031101681-08</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 未安排</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:16</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 2</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 16</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 1.0</font>
+											</p>
+										</div>
+									</td>
+									<td rowspan="2" id="4-7" class="td_wrap">
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">Python语言程序设计 </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (7-8节)3-17周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 A1306</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 解晓萌</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-045102811-09</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 22工程力学创新班;22工业设计1班;22工业设计2班</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 考试</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:32,其他:8</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 2</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 32</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 2.0</font>
+											</p>
+										</div>
+									</td>
+									<td rowspan="1" id="5-7" class="td_wrap"></td>
+									<td rowspan="1" id="6-7" class="td_wrap"></td>
+									<td rowspan="1" id="7-7" class="td_wrap"></td>
+								</tr>
+								<tr>
+									<td><span class="festival">8</span></td>
+									<td rowspan="1" id="2-8" class="td_wrap"></td>
+									<td rowspan="1" id="5-8" class="td_wrap"></td>
+									<td rowspan="1" id="6-8" class="td_wrap"></td>
+									<td rowspan="1" id="7-8" class="td_wrap"></td>
+								</tr>
+								<tr>
+									<td rowspan="4"><span class="time">晚上</span></td>
+									<td><span class="festival">9</span></td>
+									<td rowspan="3" id="1-9" class="td_wrap">
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">习近平新时代中国特色社会主义思想概论 </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (9-11节)3-14周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 A1103</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 周云</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-031101761-29</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 22工程力学创新班;22日语;22商务英语1班;22商务英语2班;22商务英语3班</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 考试</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:36,其他:12</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 3</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 36</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 3.0</font>
+											</p>
+										</div>
+									</td>
+									<td rowspan="3" id="2-9" class="td_wrap">
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">理论力学Ⅱ </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (9-11节)3-15周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 A1402</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 杨怡</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-033100392-01</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 22工程力学创新班</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 考试</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:74,实验:2,其他:4</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 5</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 74</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 5.0</font>
+											</p>
+										</div>
+									</td>
+									<td rowspan="1" id="3-9" class="td_wrap"></td>
+									<td rowspan="3" id="4-9" class="td_wrap">
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">理论力学Ⅱ </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (9-11节)3-14周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 A1402</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 杨怡</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-033100392-01</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 22工程力学创新班</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 考试</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:74,实验:2,其他:4</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 5</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 74</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 5.0</font>
+											</p>
+										</div>
+									</td>
+									<td rowspan="1" id="5-9" class="td_wrap"></td>
+									<td rowspan="1" id="6-9" class="td_wrap"></td>
+									<td rowspan="1" id="7-9" class="td_wrap"></td>
+								</tr>
+								<tr>
+									<td><span class="festival">10</span></td>
+									<td rowspan="1" id="3-10" class="td_wrap"></td>
+									<td rowspan="1" id="5-10" class="td_wrap"></td>
+									<td rowspan="1" id="6-10" class="td_wrap"></td>
+									<td rowspan="1" id="7-10" class="td_wrap"></td>
+								</tr>
+								<tr>
+									<td><span class="festival">11</span></td>
+									<td rowspan="2" id="3-11" class="td_wrap">
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">Python语言程序设计 </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (11-12节)11周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 A1306</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 解晓萌</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-045102811-09</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 22工程力学创新班;22工业设计1班;22工业设计2班</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 考试</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:32,其他:8</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 2</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 32</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 2.0</font>
+											</p>
+										</div>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">Python语言程序设计 </font>
+											</span>
+											<p><span data-toggle="tooltip" data-placement="top" title="节/周">
+													<font color="blue"><span class="glyphicon glyphicon-time"></span>
+													</font>
+												</span>
+												<font color="blue"> (11-12节)12-15周</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="上课地点">
+													<font color="blue"><span
+															class="glyphicon glyphicon-map-marker"></span></font>
+												</span>
+												<font color="blue"> 大学城校区 未排地点</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教师">
+													<font color="blue"><span class="glyphicon glyphicon-user"></span>
+													</font>
+												</span>
+												<font color="blue"> 解晓萌</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班名称">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> (2022-2023-2)-045102811-09A</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="教学班组成">
+													<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													</font>
+												</span>
+												<font color="blue"> 22工程力学创新班;22工业设计1班;22工业设计2班</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="考核方式">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 未安排</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="选课备注">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 无</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="课程学时组成">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 理论:32,其他:8</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="周学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> .5</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="总学时">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 8</font>
+											</p>
+											<p><span data-toggle="tooltip" data-placement="top" title="学分">
+													<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													</font>
+												</span>
+												<font color="blue"> 2.0</font>
+											</p>
+										</div>
+									</td>
+									<td rowspan="1" id="5-11" class="td_wrap"></td>
+									<td rowspan="1" id="6-11" class="td_wrap"></td>
+									<td rowspan="1" id="7-11" class="td_wrap"></td>
+								</tr>
+								<tr>
+									<td><span class="festival">12</span></td>
+									<td rowspan="1" id="1-12" class="td_wrap"></td>
+									<td rowspan="1" id="2-12" class="td_wrap"></td>
+									<td rowspan="1" id="4-12" class="td_wrap"></td>
+									<td rowspan="1" id="5-12" class="td_wrap"></td>
+									<td rowspan="1" id="6-12" class="td_wrap"></td>
+									<td rowspan="1" id="7-12" class="td_wrap"></td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="timetable_title"><span class="red"
+								style="font: normal 18px/25px microsoft YaHei;">实践课程：</span><span
+								style="font:  18px/25px SimSun;">课外必读书籍 李春雷(共1周)/1周;</span><br><span class="red"
+								style="font: normal 18px/25px microsoft YaHei;">其它课程：</span><span
+								style="font:  18px/25px SimSun;">工程伦理学 罗栋(共12周)/4-15周/QQ群：455757491;大学生心理健康教育
+								陈昕(共12周)/1-12周/QQ群：665345573;</span><br></div>
+					</div>
+					<div class="tab-pane fade" id="table2">
+						<table id="kblist_table" class="table table-hover table-bordered text-center timetable">
+							<tbody>
+								<tr>
+									<td colspan="4">
+										<div class="timetable_title">
+											<h6 class="pull-left">2022-2023学年第2学期</h6>很臭的课表<h6 class="pull-right">
+												　学号：114514</h6>
+										</div>
+										<div><span class="pull-left"> -其他 -集中实践 -实习 -实验 -理论</span><span
+												class="pull-right">
+												<font color="red" size="3"><b>注：</b></font>
+												<font color="red" size="3"><i>红色斜体为待筛选</i></font>，<font color="blue"
+													size="3">蓝色为已选上</font>
+											</span></div>
+									</td>
+								</tr>
+								<tr class="tbody_head">
+									<td>星期</td>
+									<td>节次</td>
+									<td>课表信息</td>
+								</tr>
+							</tbody>
+							<tbody id="xq_1" style="">
+								<tr>
+									<td id="xq_rowspan_1" rowspan="5" width="50"><span class="week">星期一</span></td>
+								</tr>
+								<tr>
+									<td id="jc_1-1-2" rowspan="1"><span class="festival">1-2</span></td>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">概率论与数理统计 </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：3-18周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：A3203</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：鲍江宏
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-040100023-05</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：22船舶与海洋工程;22工程力学创新班</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：考试</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:48</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 周学时：3
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													总学时：48</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：3.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td id="jc_1-3-4" rowspan="1"><span class="festival">3-4</span></td>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">微积分Ⅱ(二) </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：3-18周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：A3103</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：林俊宇
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-040100411-29</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：22船舶与海洋工程;22工程力学创新班</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：考试</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:80</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 周学时：6
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													总学时：80</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：5.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td id="jc_1-5-8" rowspan="1"><span class="festival">5-8</span></td>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">先进复合材料的应用与发展 </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：5-8周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：A4403</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：姚小虎
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-033103241-01</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：22工程力学创新班</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：考试</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:16</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 周学时：2
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													总学时：16</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：1.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td id="jc_1-9-11" rowspan="1"><span class="festival">9-11</span></td>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">习近平新时代中国特色社会主义思想概论 </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：3-14周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：A1103</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：周云
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-031101761-29</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：22工程力学创新班;22日语;22商务英语1班;22商务英语2班;22商务英语3班</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：考试</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:36,其他:12</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 周学时：3
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													总学时：36</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：3.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+							<tbody id="xq_2" style="">
+								<tr>
+									<td id="xq_rowspan_2" rowspan="5" width="50"><span class="week">星期二</span></td>
+								</tr>
+								<tr>
+									<td id="jc_2-1-2" rowspan="1"><span class="festival">1-2</span></td>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">概率论与数理统计 </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：11-18周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：A3203</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：鲍江宏
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-040100023-05</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：22船舶与海洋工程;22工程力学创新班</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：考试</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:48</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 周学时：3
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													总学时：48</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：3.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td id="jc_2-3-4" rowspan="1"><span class="festival">3-4</span></td>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">大学物理Ⅲ(一) </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：3-18周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：A3206</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：朱瑞
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-041101151-25</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：22工程力学创新班;22自动化数学双学位班</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：考试</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:64</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 周学时：4
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													总学时：64</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：4.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td id="jc_2-5-6" rowspan="1"><span class="festival">5-6</span></td>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">微积分Ⅱ(二) </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：3-18周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：A3103</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：林俊宇
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-040100411-29</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：22船舶与海洋工程;22工程力学创新班</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：考试</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:80</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 周学时：6
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													总学时：80</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：5.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td id="jc_2-9-11" rowspan="1"><span class="festival">9-11</span></td>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">理论力学Ⅱ </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：3-15周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：A1402</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：杨怡
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-033100392-01</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：22工程力学创新班</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：考试</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:74,实验:2,其他:4</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 周学时：5
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													总学时：74</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：5.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+							<tbody id="xq_3" style="">
+								<tr>
+									<td id="xq_rowspan_3" rowspan="4" width="50"><span class="week">星期三</span></td>
+								</tr>
+								<tr>
+									<td id="jc_3-7-8" rowspan="1"><span class="festival">7-8</span></td>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">改革开放史 </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：6-13周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：未排地点</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：叶圣涛
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-031101681-08</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：未安排</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:16</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 周学时：2
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													总学时：16</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：1.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td id="jc_3-11-12" rowspan="2"><span class="festival">11-12</span></td>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">Python语言程序设计 </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：11周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：A1306</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：解晓萌
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-045102811-09</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：22工程力学创新班;22工业设计1班;22工业设计2班</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：考试</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:32,其他:8</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 周学时：2
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													总学时：32</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：2.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">Python语言程序设计 </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：12-15周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：未排地点</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：解晓萌
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-045102811-09A</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：22工程力学创新班;22工业设计1班;22工业设计2班</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：未安排</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:32,其他:8</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													周学时：.5</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 总学时：8
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：2.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+							<tbody id="xq_4" style="">
+								<tr>
+									<td id="xq_rowspan_4" rowspan="4" width="50"><span class="week">星期四</span></td>
+								</tr>
+								<tr>
+									<td id="jc_4-1-2" rowspan="1"><span class="festival">1-2</span></td>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">大学物理Ⅲ(一) </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：3-18周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：A3206</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：朱瑞
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-041101151-25</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：22工程力学创新班;22自动化数学双学位班</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：考试</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:64</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 周学时：4
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													总学时：64</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：4.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td id="jc_4-7-8" rowspan="1"><span class="festival">7-8</span></td>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">Python语言程序设计 </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：3-17周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：A1306</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：解晓萌
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-045102811-09</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：22工程力学创新班;22工业设计1班;22工业设计2班</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：考试</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:32,其他:8</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 周学时：2
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													总学时：32</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：2.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td id="jc_4-9-11" rowspan="1"><span class="festival">9-11</span></td>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">理论力学Ⅱ </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：3-14周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：A1402</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：杨怡
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-033100392-01</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：22工程力学创新班</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：考试</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:74,实验:2,其他:4</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 周学时：5
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													总学时：74</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：5.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+							<tbody id="xq_5" style="">
+								<tr>
+									<td id="xq_rowspan_5" rowspan="2" width="50"><span class="week">星期五</span></td>
+								</tr>
+								<tr>
+									<td id="jc_5-1-2" rowspan="1"><span class="festival">1-2</span></td>
+									<td>
+										<div class="timetable_con text-left"><span class="title">
+												<font color="blue">微积分Ⅱ(二) </font>
+											</span>
+											<p>
+												<font color="blue"><span class="glyphicon glyphicon-calendar"></span>
+													周数：3-10周</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													校区：大学城校区<span class="glyphicon glyphicon-map-marker"></span>
+													上课地点：A3103</font>
+												<font color="blue"><span class="glyphicon glyphicon-user"></span> 教师：林俊宇
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班：(2022-2023-2)-040100411-29</font>
+												<font color="blue"><span class="glyphicon glyphicon-home"></span>
+													教学班组成：22船舶与海洋工程;22工程力学创新班</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													考核方式：考试</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													选课备注：无</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													课程学时组成：理论:80</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span> 周学时：6
+												</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													总学时：80</font>
+												<font color="blue"><span class="glyphicon glyphicon-tower"></span>
+													学分：5.0</font>
+											</p>
+										</div>
+									</td>
+								</tr>
+							</tbody>
+							<tbody id="xq_6" style="display: none">
+								<tr>
+									<td id="xq_rowspan_6" rowspan="0" width="50"><span class="week">星期六</span></td>
+								</tr>
+							</tbody>
+							<tbody id="xq_7" style="display: none">
+								<tr>
+									<td id="xq_rowspan_7" rowspan="0" width="50"><span class="week">星期日</span></td>
+								</tr>
+							</tbody>
+							<tbody>
+								<tr>
+									<td colspan="4" style="text-align:left;">
+										<div class="timetable_title"><span class="red"
+												style="font: normal 18px/25px microsoft YaHei;">实践课程：</span><span
+												style="font:  18px/25px SimSun;">课外必读书籍 李春雷(共1周)/1周;</span><br><span
+												class="red"
+												style="font: normal 18px/25px microsoft YaHei;">其它课程：</span><span
+												style="font:  18px/25px SimSun;">工程伦理学
+												罗栋(共12周)/4-15周/QQ群：455757491;大学生心理健康教育
+												陈昕(共12周)/1-12周/QQ群：665345573;</span><br></div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+
+
+				</div>
+
+				<div class="row sl_aff_btn" id="searchBox1" style="display:none;">
+					<div class="col-sm-12">
+						<button type="button" class="btn btn-primary btn-sm" id="btn_dc">导出</button>
+					</div>
+				</div>
+				<!-- table-start  -->
+				<div class="ui-jqgrid ui-widget ui-widget-content ui-corner-all" id="gbox_sycjlrtabGrid" dir="ltr"
+					style="width: 577px; display: none;">
+					<div class="ui-widget-overlay jqgrid-overlay" id="lui_sycjlrtabGrid"></div>
+					<div class="loading ui-state-default ui-state-active" id="load_sycjlrtabGrid"
+						style="display: none;">正在请求数据...</div>
+					<div class="ui-jqgrid-view" id="gview_sycjlrtabGrid" style="width: 577px;">
+						<div
+							class="ui-jqgrid-titlebar ui-jqgrid-caption ui-widget-header ui-corner-top ui-helper-clearfix">
+							<span class="ui-jqgrid-title">实验课表</span></div>
+						<div class="ui-state-default ui-jqgrid-hdiv" style="width: 579px;">
+							<div class="ui-jqgrid-hbox">
+								<table class="ui-jqgrid-htable" style="width:1380px" role="grid"
+									aria-labelledby="gbox_sycjlrtabGrid" cellspacing="0" cellpadding="0" border="0">
+									<thead>
+										<tr class="ui-jqgrid-labels ui-sortable" role="rowheader" style="">
+											<th id="sycjlrtabGrid_xmz_id" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr"
+												style="width: 150px; display: none;"><span
+													class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_sycjlrtabGrid_xmz_id" class="ui-jqgrid-sortable">ID<span
+														class="s-ico" style=""><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="sycjlrtabGrid_xnm" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr" style="width: 100px;">
+												<span class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_sycjlrtabGrid_xnm" class="ui-jqgrid-sortable">学年<span
+														class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="sycjlrtabGrid_xqm" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr" style="width: 80px;">
+												<span class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_sycjlrtabGrid_xqm" class="ui-jqgrid-sortable">学期<span
+														class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="sycjlrtabGrid_xh" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr" style="width: 100px;">
+												<span class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_sycjlrtabGrid_xh" class="ui-jqgrid-sortable">学号<span
+														class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="sycjlrtabGrid_xm" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr" style="width: 100px;">
+												<span class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_sycjlrtabGrid_xm" class="ui-jqgrid-sortable">姓名<span
+														class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="sycjlrtabGrid_kch" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr" style="width: 100px;">
+												<span class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_sycjlrtabGrid_kch" class="ui-jqgrid-sortable">课程号<span
+														class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="sycjlrtabGrid_kcmc" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr" style="width: 100px;">
+												<span class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_sycjlrtabGrid_kcmc" class="ui-jqgrid-sortable">课程名称<span
+														class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="sycjlrtabGrid_xmmc" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr" style="width: 150px;">
+												<span class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_sycjlrtabGrid_xmmc" class="ui-jqgrid-sortable">实验项目名称<span
+														class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="sycjlrtabGrid_syfzmc" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr" style="width: 150px;">
+												<span class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_sycjlrtabGrid_syfzmc" class="ui-jqgrid-sortable">
+													实验分组名称<span class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="sycjlrtabGrid_sksjdd" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr" style="width: 200px;">
+												<span class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_sycjlrtabGrid_sksjdd" class="ui-jqgrid-sortable">
+													上课时间地点<span class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="sycjlrtabGrid_dycdxq" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr" style="width: 200px;">
+												<span class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_sycjlrtabGrid_dycdxq" class="ui-jqgrid-sortable">
+													实验房间对应场地校区<span class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="sycjlrtabGrid_jsxm" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr" style="width: 100px;">
+												<span class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_sycjlrtabGrid_jsxm" class="ui-jqgrid-sortable">实验人员<span
+														class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+										</tr>
+									</thead>
+								</table>
+							</div>
+						</div>
+						<div class="ui-jqgrid-bdiv" style="height: auto; width: 579px;">
+							<div style="position:relative;">
+								<div></div>
+								<table id="sycjlrtabGrid" tabindex="0" cellspacing="0" cellpadding="0" border="0"
+									role="grid" aria-multiselectable="false" aria-labelledby="gbox_sycjlrtabGrid"
+									class="ui-jqgrid-btable" style="width: 1380px;">
+									<tbody>
+										<tr class="jqgfirstrow" role="row" style="height:auto">
+											<td role="gridcell" style="height:0px;width:150px;display:none;"></td>
+											<td role="gridcell" style="height:0px;width:100px;"></td>
+											<td role="gridcell" style="height:0px;width:80px;"></td>
+											<td role="gridcell" style="height:0px;width:100px;"></td>
+											<td role="gridcell" style="height:0px;width:100px;"></td>
+											<td role="gridcell" style="height:0px;width:100px;"></td>
+											<td role="gridcell" style="height:0px;width:100px;"></td>
+											<td role="gridcell" style="height:0px;width:150px;"></td>
+											<td role="gridcell" style="height:0px;width:150px;"></td>
+											<td role="gridcell" style="height:0px;width:200px;"></td>
+											<td role="gridcell" style="height:0px;width:200px;"></td>
+											<td role="gridcell" style="height:0px;width:100px;"></td>
+										</tr>
+										<tr name="norecords" class="emptyrow" align="center" valign="middle"
+											style="height:80px;">
+											<td colspan="12" align="center" valign="middle"
+												style="line-height:80px;text-align: center;font-size:12px;">没有符合条件记录!
+											</td>
+										</tr>
+										<tr></tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="ui-jqgrid-resize-mark" id="rs_msycjlrtabGrid">&nbsp;</div>
+					<div id="sycjlrpager" class="ui-state-default ui-jqgrid-pager ui-corner-bottom"
+						style="width: 577px;" dir="ltr">
+						<div id="pg_sycjlrpager" class="ui-pager-control" role="group">
+							<table cellspacing="0" cellpadding="0" border="0" class="ui-pg-table"
+								style="width:100%;table-layout:fixed;height:100%;" role="row">
+								<tbody>
+									<tr>
+										<td id="sycjlrpager_left" align="left">
+											<table cellspacing="0" cellpadding="0" border="0"
+												class="ui-pg-table navtable" style="float:left;table-layout:auto;">
+												<tbody>
+													<tr></tr>
+												</tbody>
+											</table>
+										</td>
+										<td id="sycjlrpager_center" align="center"
+											style="white-space: pre; width: 293px;">
+											<table cellspacing="0" cellpadding="0" border="0" style="table-layout:auto;"
+												class="ui-pg-table">
+												<tbody>
+													<tr>
+														<td id="first_sycjlrpager"
+															class="ui-pg-button ui-corner-all ui-state-disabled"><span
+																class="ui-icon glyphicon glyphicon-step-backward"></span>
+														</td>
+														<td id="prev_sycjlrpager"
+															class="ui-pg-button ui-corner-all ui-state-disabled"><span
+																class="ui-icon glyphicon glyphicon-chevron-left"></span>
+														</td>
+														<td class="ui-pg-button ui-state-disabled" style="width:4px;">
+															<span class="ui-separator"></span></td>
+														<td dir="ltr"> <input class="ui-pg-input" name="showCount"
+																type="text" size="2" maxlength="7" value="0"
+																role="textbox"> 共 <span id="sp_1_sycjlrpager">0</span> 页
+														</td>
+														<td class="ui-pg-button ui-state-disabled" style="width:4px;">
+															<span class="ui-separator"></span></td>
+														<td id="next_sycjlrpager" class="ui-pg-button ui-corner-all">
+															<span
+																class="ui-icon glyphicon glyphicon-chevron-right"></span>
+														</td>
+														<td id="last_sycjlrpager" class="ui-pg-button ui-corner-all">
+															<span
+																class="ui-icon glyphicon glyphicon-step-forward"></span>
+														</td>
+														<td dir="ltr"><select class="ui-pg-selbox" name="currentPage"
+																role="listbox">
+																<option role="option" value="15" selected="selected">15
+																</option>
+																<option role="option" value="20">20</option>
+																<option role="option" value="30">30</option>
+																<option role="option" value="50">50</option>
+																<option role="option" value="70">70</option>
+																<option role="option" value="90">90</option>
+																<option role="option" value="100">100</option>
+																<option role="option" value="150">150</option>
+																<option role="option" value="300">300</option>
+																<option role="option" value="500">500</option>
+																<option role="option" value="800">800</option>
+																<option role="option" value="1000">1000</option>
+																<option role="option" value="1500">1500</option>
+																<option role="option" value="2000">2000</option>
+																<option role="option" value="2500">2500</option>
+																<option role="option" value="5000">5000</option>
+															</select></td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+										<td id="sycjlrpager_right" align="right">
+											<div dir="ltr" style="text-align:right" class="ui-paging-info">无数据显示</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+				<!-- table-end  -->
+				<div class="row sl_aff_btn" id="searchBox2" style="display: none;">
+					<div class="col-sm-12">
+						<button type="button" class="btn btn-primary btn-sm" id="btn_dc2">开放性实验导出</button>
+					</div>
+				</div>
+				<div class="ui-jqgrid ui-widget ui-widget-content ui-corner-all" id="gbox_kfxsycjlrtabGrid" dir="ltr"
+					style="width: 141px; display: none;">
+					<div class="ui-widget-overlay jqgrid-overlay" id="lui_kfxsycjlrtabGrid"></div>
+					<div class="loading ui-state-default ui-state-active" id="load_kfxsycjlrtabGrid"
+						style="display: none;">正在请求数据...</div>
+					<div class="ui-jqgrid-view" id="gview_kfxsycjlrtabGrid" style="width: 141px;">
+						<div
+							class="ui-jqgrid-titlebar ui-jqgrid-caption ui-widget-header ui-corner-top ui-helper-clearfix">
+							<span class="ui-jqgrid-title">开放性实验课表</span></div>
+						<div class="ui-state-default ui-jqgrid-hdiv" style="width: 143px;">
+							<div class="ui-jqgrid-hbox">
+								<table class="ui-jqgrid-htable" style="width:1530px" role="grid"
+									aria-labelledby="gbox_kfxsycjlrtabGrid" cellspacing="0" cellpadding="0" border="0">
+									<thead>
+										<tr class="ui-jqgrid-labels ui-sortable" role="rowheader">
+											<th id="kfxsycjlrtabGrid_id" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr"
+												style="width: 150px; display: none;"><span
+													class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_kfxsycjlrtabGrid_id" class="ui-jqgrid-sortable">ID<span
+														class="s-ico" style=""><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="kfxsycjlrtabGrid_xnmc" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr ui-sortable-handle"
+												style="width: 100px;"><span
+													class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_kfxsycjlrtabGrid_xnmc" class="ui-jqgrid-sortable">学年<span
+														class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="kfxsycjlrtabGrid_xqmc" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr ui-sortable-handle"
+												style="width: 80px;"><span class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_kfxsycjlrtabGrid_xqmc" class="ui-jqgrid-sortable">学期<span
+														class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="kfxsycjlrtabGrid_xmmc" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr ui-sortable-handle"
+												style="width: 100px;"><span
+													class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_kfxsycjlrtabGrid_xmmc" class="ui-jqgrid-sortable">
+													实验名称<span class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="kfxsycjlrtabGrid_jgmc" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr ui-sortable-handle"
+												style="width: 100px;"><span
+													class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_kfxsycjlrtabGrid_jgmc" class="ui-jqgrid-sortable">
+													申请单位<span class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="kfxsycjlrtabGrid_jsxm" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr ui-sortable-handle"
+												style="width: 100px;"><span
+													class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_kfxsycjlrtabGrid_jsxm" class="ui-jqgrid-sortable">
+													申报教师<span class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="kfxsycjlrtabGrid_ksxy" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr ui-sortable-handle"
+												style="width: 100px;"><span
+													class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_kfxsycjlrtabGrid_ksxy" class="ui-jqgrid-sortable">
+													教学单位<span class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="kfxsycjlrtabGrid_syzxmc" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr ui-sortable-handle"
+												style="width: 150px;"><span
+													class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_kfxsycjlrtabGrid_syzxmc" class="ui-jqgrid-sortable">
+													实验中心<span class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="kfxsycjlrtabGrid_sysmc" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr ui-sortable-handle"
+												style="width: 150px;"><span
+													class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_kfxsycjlrtabGrid_sysmc" class="ui-jqgrid-sortable">
+													实验室<span class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="kfxsycjlrtabGrid_syslbmc" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr ui-sortable-handle"
+												style="width: 150px;"><span
+													class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_kfxsycjlrtabGrid_syslbmc" class="ui-jqgrid-sortable">
+													实验室类别<span class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="kfxsycjlrtabGrid_cdmc" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr ui-sortable-handle"
+												style="width: 100px;"><span
+													class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_kfxsycjlrtabGrid_cdmc" class="ui-jqgrid-sortable">
+													实验场地<span class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="kfxsycjlrtabGrid_kfsjdd" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr ui-sortable-handle"
+												style="width: 100px;"><span
+													class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_kfxsycjlrtabGrid_kfsjdd" class="ui-jqgrid-sortable">
+													开放时间<span class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+											<th id="kfxsycjlrtabGrid_skxx" role="columnheader"
+												class="ui-state-default ui-th-column ui-th-ltr ui-sortable-handle"
+												style="width: 300px;"><span
+													class="ui-jqgrid-resize ui-jqgrid-resize-ltr"
+													style="cursor: col-resize;">&nbsp;</span>
+												<div id="jqgh_kfxsycjlrtabGrid_skxx" class="ui-jqgrid-sortable">
+													指导教师时间<span class="s-ico" style="display:none"><span sort="asc"
+															class="ui-grid-ico-sort ui-icon-asc ui-state-disabled ui-icon ui-icon-triangle-1-n ui-sort-ltr"></span><span
+															sort="desc"
+															class="ui-grid-ico-sort ui-icon-desc ui-state-disabled ui-icon ui-icon-triangle-1-s ui-sort-ltr"></span></span>
+												</div>
+											</th>
+										</tr>
+									</thead>
+								</table>
+							</div>
+						</div>
+						<div class="ui-jqgrid-bdiv" style="height: auto; width: 143px;">
+							<div style="position:relative;">
+								<div></div>
+								<table id="kfxsycjlrtabGrid" tabindex="0" cellspacing="0" cellpadding="0" border="0"
+									role="grid" aria-multiselectable="false" aria-labelledby="gbox_kfxsycjlrtabGrid"
+									class="ui-jqgrid-btable" style="width: 1530px;">
+									<tbody>
+										<tr class="jqgfirstrow" role="row" style="height:auto">
+											<td role="gridcell" style="height:0px;width:150px;display:none;"></td>
+											<td role="gridcell" style="height:0px;width:100px;"></td>
+											<td role="gridcell" style="height:0px;width:80px;"></td>
+											<td role="gridcell" style="height:0px;width:100px;"></td>
+											<td role="gridcell" style="height:0px;width:100px;"></td>
+											<td role="gridcell" style="height:0px;width:100px;"></td>
+											<td role="gridcell" style="height:0px;width:100px;"></td>
+											<td role="gridcell" style="height:0px;width:150px;"></td>
+											<td role="gridcell" style="height:0px;width:150px;"></td>
+											<td role="gridcell" style="height:0px;width:150px;"></td>
+											<td role="gridcell" style="height:0px;width:100px;"></td>
+											<td role="gridcell" style="height:0px;width:100px;"></td>
+											<td role="gridcell" style="height:0px;width:300px;"></td>
+										</tr>
+										<tr name="norecords" class="emptyrow" align="center" valign="middle"
+											style="height:80px;">
+											<td colspan="13" align="center" valign="middle"
+												style="line-height:80px;text-align: center;font-size:12px;">没有符合条件记录!
+											</td>
+										</tr>
+										<tr></tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="ui-jqgrid-resize-mark" id="rs_mkfxsycjlrtabGrid">&nbsp;</div>
+					<div id="kfxsycjlrpager" class="ui-state-default ui-jqgrid-pager ui-corner-bottom"
+						style="width: 141px;" dir="ltr">
+						<div id="pg_kfxsycjlrpager" class="ui-pager-control" role="group">
+							<table cellspacing="0" cellpadding="0" border="0" class="ui-pg-table"
+								style="width:100%;table-layout:fixed;height:100%;" role="row">
+								<tbody>
+									<tr>
+										<td id="kfxsycjlrpager_left" align="left">
+											<table cellspacing="0" cellpadding="0" border="0"
+												class="ui-pg-table navtable" style="float:left;table-layout:auto;">
+												<tbody>
+													<tr></tr>
+												</tbody>
+											</table>
+										</td>
+										<td id="kfxsycjlrpager_center" align="center"
+											style="white-space: pre; width: 293px;">
+											<table cellspacing="0" cellpadding="0" border="0" style="table-layout:auto;"
+												class="ui-pg-table">
+												<tbody>
+													<tr>
+														<td id="first_kfxsycjlrpager"
+															class="ui-pg-button ui-corner-all ui-state-disabled"><span
+																class="ui-icon glyphicon glyphicon-step-backward"></span>
+														</td>
+														<td id="prev_kfxsycjlrpager"
+															class="ui-pg-button ui-corner-all ui-state-disabled"><span
+																class="ui-icon glyphicon glyphicon-chevron-left"></span>
+														</td>
+														<td class="ui-pg-button ui-state-disabled" style="width:4px;">
+															<span class="ui-separator"></span></td>
+														<td dir="ltr"> <input class="ui-pg-input" name="showCount"
+																type="text" size="2" maxlength="7" value="0"
+																role="textbox"> 共 <span
+																id="sp_1_kfxsycjlrpager">0</span> 页</td>
+														<td class="ui-pg-button ui-state-disabled" style="width:4px;">
+															<span class="ui-separator"></span></td>
+														<td id="next_kfxsycjlrpager" class="ui-pg-button ui-corner-all">
+															<span
+																class="ui-icon glyphicon glyphicon-chevron-right"></span>
+														</td>
+														<td id="last_kfxsycjlrpager" class="ui-pg-button ui-corner-all">
+															<span
+																class="ui-icon glyphicon glyphicon-step-forward"></span>
+														</td>
+														<td dir="ltr"><select class="ui-pg-selbox" name="currentPage"
+																role="listbox">
+																<option role="option" value="15" selected="selected">15
+																</option>
+																<option role="option" value="20">20</option>
+																<option role="option" value="30">30</option>
+																<option role="option" value="50">50</option>
+																<option role="option" value="70">70</option>
+																<option role="option" value="90">90</option>
+																<option role="option" value="100">100</option>
+																<option role="option" value="150">150</option>
+																<option role="option" value="300">300</option>
+																<option role="option" value="500">500</option>
+																<option role="option" value="800">800</option>
+																<option role="option" value="1000">1000</option>
+																<option role="option" value="1500">1500</option>
+																<option role="option" value="2000">2000</option>
+																<option role="option" value="2500">2500</option>
+																<option role="option" value="5000">5000</option>
+															</select></td>
+													</tr>
+												</tbody>
+											</table>
+										</td>
+										<td id="kfxsycjlrpager_right" align="right">
+											<div dir="ltr" style="text-align:right" class="ui-paging-info">无数据显示</div>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+
+
+
+
+
+				<!--jQuery.jqGrid -->
+				<link rel="stylesheet" type="text/css" href="./学生课表查询_files/jquery.jqgrid.css">
+				<script type="text/javascript" src="./学生课表查询_files/jquery.jqgrid.src-min.js.下载"
+					charset="utf-8"></script>
+				<script type="text/javascript" src="./学生课表查询_files/jquery.jqgrid.contact-min.js.下载"
+					charset="utf-8"></script>
+				<script type="text/javascript" src="./学生课表查询_files/zh_CN.js(1).下载" charset="utf-8"></script>
+				<script type="text/javascript" src="./学生课表查询_files/jquery.jqgrid.settings.js.下载"
+					charset="utf-8"></script>
+				<script type="text/javascript" src="./学生课表查询_files/jquery.jqGrid-min.js.下载" charset="utf-8"></script>
+				<!--jQuery.validation -->
+				<link rel="stylesheet" type="text/css" href="./学生课表查询_files/jquery.validate-min.css">
+				<script type="text/javascript" src="./学生课表查询_files/jquery.validate-min.js.下载" charset="utf-8"></script>
+				<script type="text/javascript" src="./学生课表查询_files/jquery.validate.contact-min.js.下载"
+					charset="utf-8"></script>
+				<script type="text/javascript" src="./学生课表查询_files/jquery.validate.methods.contact-min.js.下载"
+					charset="utf-8"></script>
+				<script type="text/javascript" src="./学生课表查询_files/zh_CN-min.js(1).下载" charset="utf-8"></script>
+				<script type="text/javascript">
+					jQuery(function ($) {
+						$('[data-toggle*="validation"]').trigger("validation");
+					});
+				</script>
+
+				<link rel="stylesheet" type="text/css" href="./学生课表查询_files/jquery.backdrop-1.0.0.css">
+				<script type="text/javascript" src="./学生课表查询_files/jquery.backdrop-min.js.下载" charset="utf-8"></script>
+				<script type="text/javascript" src="./学生课表查询_files/xskbcx.js.下载"></script>
+				<script type="text/javascript">
+					/* if(language=="en_US"){
+						$("#shcPDF").hide();
+					}else{
+						$("#shcPDF").show();
+					} */
+				</script>
+
+			</div>
+		</div>
+	</div>
+	<div class="ui-widget ui-widget-content ui-corner-all ui-jqdialog" id="alertmod_sycjlrtabGrid" dir="ltr"
+		tabindex="-1" role="dialog" aria-labelledby="alerthd_sycjlrtabGrid" aria-hidden="true"
+		style="width: 200px; height: auto; z-index: 950; overflow: hidden; top: 323px; left: 631.5px;">
+		<div class="ui-jqdialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix" id="alerthd_sycjlrtabGrid"
+			style="cursor: move;"><span class="ui-jqdialog-title" style="float: left;">注意</span><a
+				class="ui-jqdialog-titlebar-close ui-corner-all" style="right: 0.3em;"><span
+					class="ui-icon ui-icon-closethick"></span></a></div>
+		<div class="ui-jqdialog-content ui-widget-content" id="alertcnt_sycjlrtabGrid">
+			<div>请选择记录</div><span tabindex="0"><span tabindex="-1" id="jqg_alrt"></span></span>
+		</div>
+		<div class="jqResize ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"></div>
+	</div>
+	<div class="ui-widget ui-widget-content ui-corner-all ui-jqdialog" id="alertmod_kfxsycjlrtabGrid" dir="ltr"
+		tabindex="-1" role="dialog" aria-labelledby="alerthd_kfxsycjlrtabGrid" aria-hidden="true"
+		style="width: 200px; height: auto; z-index: 950; overflow: hidden; top: 323px; left: 631.5px;">
+		<div class="ui-jqdialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix"
+			id="alerthd_kfxsycjlrtabGrid" style="cursor: move;"><span class="ui-jqdialog-title"
+				style="float: left;">注意</span><a class="ui-jqdialog-titlebar-close ui-corner-all"
+				style="right: 0.3em;"><span class="ui-icon ui-icon-closethick"></span></a></div>
+		<div class="ui-jqdialog-content ui-widget-content" id="alertcnt_kfxsycjlrtabGrid">
+			<div>请选择记录</div><span tabindex="0"><span tabindex="-1" id="jqg_alrt"></span></span>
+		</div>
+		<div class="jqResize ui-resizable-handle ui-resizable-se ui-icon ui-icon-gripsmall-diagonal-se"></div>
+	</div>
+	<!-- footer -->
+
+
+
+
+
+
+
+
+	<!-- footer -->
+
+	<div id="footerID" class="footer" style="background-color: ">
+
+		<p>2021 © 华南理工大学 版权所有 粤ICP备05084312号&nbsp;&nbsp;&nbsp;</p>
+	</div>
+
+
+
+
+	<script type="text/javascript">
+	//系统中页面底部的时间随系统时间来定
+		/* var date=new Date;
+		var year=date.getFullYear();
+		var s = $("#footerID").text().indexOf('-');
+		var textNr =$("#footerID").text().substr(0,s+1)+year+$("#footerID").text().substr(s+5);
+		$("#footerID").text("");
+		$("#footerID").text(textNr); */
+
+	</script>
+	<!-- footer-end -->
+	<!-- footer-end -->
+
+	<script type="text/javascript" src="./学生课表查询_files/device.js.下载"></script>
+	<script type="text/javascript">
+		jQuery(function ($) {
+			if ($("#navbar-tabs").length > 0) {
+				$("#navbar-tabs li:eq(0) a").tab('show');
+			}
+			setMinheight();
+			setCdtsxx();
+
+			$('#yhgnPage').resize(function () {
+				var minHeight = $(this).data('min-height');
+				var innerHeight = $('#innerContainer').outerHeight(true);
+				if (self != top) {
+					$(this).css('min-height', "380");
+				} else {
+					$(this).css('min-height', Math.max(minHeight, innerHeight));
+				}
+
+			});
+
+			function setMinheight() {
+				//计算grid页面高度
+				var docuemntHeight = $(document).height();
+				var topHeight = $('header').height();
+				var footerHeight = $('.footer').height();
+				var containerHeight = docuemntHeight - topHeight - footerHeight - 60;
+				if (self != top) {
+					containerHeight = 380;
+				}
+				$('#yhgnPage').css('min-height', containerHeight).data('min-height', containerHeight);
+			}
+
+			//加载title名称，根据系统内置表设置，取菜单名称或者系统名称
+			$(document).attr("title", '学生课表查询');
+
+			//设置菜单提示信息
+			function setCdtsxx() {
+				if ($("#cdTsxx").val() != null && $("#cdTsxx").val() != "-zfsplit-") {
+					var tsxx = $("#cdTsxx").val().split("-zfsplit-")[0];
+					var tsxxljdz = $("#cdTsxx").val().split("-zfsplit-")[1];
+					var tsxxHtml = "<a class='navbar-brand' " + (tsxxljdz != "" ? "href='" + tsxxljdz + "' target='_blank'" : "") + ">" + tsxx + "</a>";
+					$(".navbar-header").prepend(tsxxHtml);
+				}
+			}
+
+			//绑定角色切换功能
+			$(document).off('change', '#changeRole').on('change', '#changeRole', function (e) {
+				$.post(_path + "/xtgl/index_changeRole.html", { jsdm: $(this).val() }, function (data) {
+					//$.alert(data);
+				});
+			});
+
+			//进行相应判断是否可切换角色及是否移动端的判断
+			if ($("#kqhjs").val() == "1" && device.mobile()) {
+				$("#navbar_container").empty();
+				$("#navbar_container").append($("#mobile-div").html());
+				$("#mobile-div").empty();
+			}
+
+		});
+	</script>
+	<!-- 设置元素固定位置显示插件  scrolltofixed 相应ini文件引用-->
+	<!-- è®¾ç½®åç´ åºå®ä½ç½®æ¾ç¤ºæä»¶  scrolltofixed -->
+	<script type="text/javascript" src="./学生课表查询_files/jquery-scrolltofixed-min.js.下载"></script>
+	<script>
+		$(document).ready(function () {
+			$("div.sl_add_btn .btn-toolbar").scrollToFixed({
+				marginTop: 35,
+				zIndex: 1050,
+				fixed: function () {
+					$(this).css("width", "auto");
+				}
+			});
+			$("#gbox_tabGrid div.ui-state-default").scrollToFixed({
+				//marginTop:3,
+				spacerClass: 'hide-div',
+			});
+		});
+	</script>
+	<style>
+		.hide-div {
+			display: none;
+		}
+	</style>
+	<!-- 软件评价 相应ini文件引用-->
+
+
+	<link rel="stylesheet" type="text/css" href="./学生课表查询_files/tagTree.css">
+	<script type="text/javascript" src="./学生课表查询_files/tagtree.js.下载"></script>
+	<script type="text/javascript" src="./学生课表查询_files/tagtreeBusiness.js.下载"></script>
+
+	<div>
+		<div class="_th-container">
+			<div class="_th-click-hover _item-input">
+				x1.00
+			</div>
+			<div class="_th-item _item-x2">&gt;</div>
+			<div class="_th-item _item-x-2">&lt;</div>
+			<div class="_th-item _item-xx2">&gt;&gt;</div>
+			<div class="_th-item _item-xx-2">&lt;&lt;</div>
+			<div class="_th-item _item-reset">O</div>
+		</div>
+		<div class="_th_cover-all-show-times _th_hidden">
+			<div class="_th_times">x1.00</div>
+		</div>
+	</div>
+	<div class="widget-backdrop in"
+		style="display: none; width: 579px; height: 5267px; top: 286.857px; left: 20px; z-index: 1045;"></div>
+	<div class="widget-backdrop-loading"
+		style="display: none; width: 579px; height: 5267px; top: 286.857px; left: 20px; z-index: 1046;">
+		<div class="image header smaller lighter" style="margin-top: 205px;"><i
+				class="icon-spinner icon-spin orange  bigger-160 "></i></div>
+		<div class="msg">加载中...</div>
+	</div>
+</body>
+
+</html>
