@@ -13,7 +13,6 @@ async function scheduleHtmlProvider(iframeContent = "", frameContent = "", dom =
 
         return 'do not continue'
     } else {
-        await AIScheduleAlert("识别成功，正在导入....\n请注意，学校没有提供学期开始时间和时间表等内容查询，请稍后自行设置！")
         return dom.getElementById('table2').innerHTML
     }
 }

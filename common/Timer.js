@@ -9,8 +9,8 @@ async function scheduleTimer({
      * @returns {Promise<Document>}
      */
     async function jwDOMApiQuery(id) {
-        const APIUrl = 'http://jw.scut.edu.cn/zhinan/cms/category/getCategoryInfo.do'
-        const IndexUrl = 'http://jw.scut.edu.cn/zhinan/cms/category/index.do'
+        const APIUrl = 'https://jw.scut.edu.cn/zhinan/cms/category/getCategoryInfo.do'
+        const IndexUrl = 'https://jw.scut.edu.cn/zhinan/cms/category/index.do'
 
         let fetched = await fetch(APIUrl, {
             method: 'POST',
@@ -29,7 +29,7 @@ async function scheduleTimer({
         startWithSunday: false,
         forenoon: 4,
         afternoon: 4,
-        night: 3
+        night: 4
     }
 
     //读取作息时间设置
@@ -246,7 +246,7 @@ async function scheduleTimer({
         let semester = parserRes.something.semester
 
         defaultResult['totalWeek'] = SchoolCalender[academicYear][semester].totalWeek
-        defaultResult['startSemester'] = (new Date(SchoolCalender[academicYear][semester].startDate)).getTime()
+        defaultResult['startSemester'] = (new Date(SchoolCalender[academicYear][semester].startDate)).getTime().toString()
     }
 
     return defaultResult
