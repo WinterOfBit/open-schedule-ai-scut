@@ -40,11 +40,31 @@ function scheduleHtmlParser(html) {
         }
     }
 
+    /**
+     * 读取学期、学年
+     * @param title
+     */
+    function readSemesterInfo(title) {
+        let academicYear = /\d{4}-\d{4}/.exec(title)[0]
+        let semester = parseInt(/\D\d\D/.exec(title)[0].substring(1,2))
+        return [academicYear, semester]
+    }
     function trim(text) {
-        return text.replace(/\s*/, '').replace('\n', '').replace(' ', '').trim()
+        return text.replace(/\s*/g, '').trim()
     }
 
-    let result = []
+    let courseInfos = []
+    let ext = {
+        location: '', //校区
+        academicYear: '', //学年
+        semester: 0 //学期
+    }
+
+    //简单粗暴判断校区，什么？还有跨校区上课的？对不起，做不到（此逻辑没有先后顺序qwq）
+    ext.location = /(大学城校区)|(五山校区)|(国际校区)/.exec(html)[0]
+    let semesterInfo = readSemesterInfo(trim($('h6.pull-left', 'div.timetable_title').text()))
+    ext.academicYear = semesterInfo[0]
+    ext.semester = semesterInfo[1]
 
     let xq_bodies = $('#xq_1, #xq_2, #xq_3, #xq_4, #xq_5, #xq_6, #xq_7')
 
@@ -80,7 +100,7 @@ function scheduleHtmlParser(html) {
                     }
                 })
 
-                result.push(course)
+                courseInfos.push(course)
             } else if (id.startsWith('jc_')) { //匹配节数设置，注意，理论上此入口先被遍历，但是为了优雅写在后面
                 let sections_str = $(tdElem).find('span.festival').text()
                 //console.log('匹配节数设置' + $(tdElem).find('span.festival').text())
@@ -90,5 +110,8 @@ function scheduleHtmlParser(html) {
         })
     })
 
-    return result
+    return {
+        courseInfos: courseInfos,
+        something: ext
+    }
 }
